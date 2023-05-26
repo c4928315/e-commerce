@@ -6,6 +6,9 @@ import Modern from '../../Components/Modern/Modern'
 import Crafts from '../../Components/Crafts/Crafts'
 import Testimonials from '../../Components/Testimonials/Testimonials'
 import Special from '../../Components/Special/Special'
+import Indoor from '../../Components/Indoor/Indoor'
+import Latest from '../../Components/Latest/Latest'
+import Sponsors from '../../Components/Sponsors/Sponsors'
 
 function Landing() {
   return (
@@ -16,6 +19,9 @@ function Landing() {
       <Crafts/>
       <Testimonials/>
       <Special/>
+      <Indoor/>
+      <Latest/>
+      <Sponsors/>
     </div>
   )
 }

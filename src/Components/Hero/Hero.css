@@ -69,13 +69,6 @@
 
 }
 
-.btn-warning{
-  border-radius: 0px;
-  width: 140px;
-  text-align: center;
-  padding: 6px;
-  text-transform: capitalize;
-}
 
 .carousel-control-prev-icon, .carousel-control-next-icon{
   width: 20px;

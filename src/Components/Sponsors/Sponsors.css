@@ -1,0 +1,100 @@
+.sponsorShoppeFabs{
+    background-image: linear-gradient(rgb(255, 255, 255, 0.4), rgb(255, 255, 255, 0.4)), url("https://cdn.shopify.com/s/files/1/0083/7474/7221/files/brand-logo-01.png?v=1613766027");
+    background-position: center;
+    background-size: cover;
+    display: block;
+    padding: 15px;
+    width: 140px;
+    height: 100px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.sponsorSummerCamp{
+    background-image: linear-gradient(rgb(255, 255, 255, 0.4), rgb(255, 255, 255, 0.4)), url("https://cdn.shopify.com/s/files/1/0083/7474/7221/files/brand-logo-02.png?v=1613766027");
+    background-position: center;
+    background-size: cover;
+    display: block;
+    padding: 15px;
+    width: 140px;
+    height: 100px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.sponsorMountain{
+    background-image: linear-gradient(rgb(255, 255, 255, 0.4), rgb(255, 255, 255, 0.4)), url("https://cdn.shopify.com/s/files/1/0083/7474/7221/files/brand-logo-04.png?v=1613766027");
+    background-position: center;
+    background-size: cover;
+    display: block;
+    padding: 15px;
+    width: 140px;
+    height: 100px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.sponsorSpoon{
+    background-image: linear-gradient(rgb(255, 255, 255, 0.4), rgb(255, 255, 255, 0.4)), url("https://cdn.shopify.com/s/files/1/0083/7474/7221/files/brand-logo-06.png?v=1613766027");
+    background-position: center;
+    background-size: cover;
+    display: block;
+    padding: 15px;
+    width: 140px;
+    height: 100px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.sponsorWalkingDreams{
+    background-image: linear-gradient(rgb(255, 255, 255, 0.4), rgb(255, 255, 255, 0.4)), url("https://cdn.shopify.com/s/files/1/0083/7474/7221/files/brand-logo-05.png?v=1613766027");
+    background-position: center;
+    background-size: cover;
+    display: block;
+    padding: 15px;
+    width: 140px;
+    height: 100px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.sponsorVintageSpoon{
+    background-image: linear-gradient(rgb(255, 255, 255, 0.4), rgb(255, 255, 255, 0.4)), url("https://cdn.shopify.com/s/files/1/0083/7474/7221/files/brand-logo-03.png?v=16137660277");
+    background-position: center;
+    background-size: cover;
+    display: block;
+    padding: 15px;
+    width: 140px;
+    height: 100px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.sponsorCoffee{
+    background-image: linear-gradient(rgb(255, 255, 255, 0.4), rgb(255, 255, 255, 0.4)), url("https://cdn.shopify.com/s/files/1/0083/7474/7221/files/brand-logo-07.png?v=1613766027");
+    background-position: center;
+    background-size: cover;
+    display: block;
+    padding: 15px;
+    width: 140px;
+    height: 100px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.sponsorRoyalAnchor{
+    background-image: linear-gradient(rgb(255, 255, 255, 0.4), rgb(255, 255, 255, 0.4)), url("https://cdn.shopify.com/s/files/1/0083/7474/7221/files/brand-logo-08.png?v=1613766027");
+    background-position: center;
+    background-size: cover;
+    display: block;
+    padding: 15px;
+    width: 140px;
+    height: 100px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.sponsors{
+    background-color: rgba(0,0,0,0);
+    padding: 40px 30px;
+}
