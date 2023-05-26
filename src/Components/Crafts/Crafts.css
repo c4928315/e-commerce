@@ -1,0 +1,123 @@
+.crafts{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+    background-color: white;
+    position: relative;
+    z-index: 20;
+}
+
+.craftsRight{
+    text-align: center;
+    display: block;
+    width: 40%;
+    padding: 110px;
+    padding-top: 50px;
+    font-weight: 300;
+}
+
+.mainHead{
+    display: flex;
+    gap: 6px;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.mainHeadAnchor{
+    width: 10px;
+    height: 2px;
+    background-color: black;
+    margin-top: 11px;
+}
+
+.head{
+    font-size: larger;
+    font-weight: 400;
+    text-transform: capitalize;
+    letter-spacing: 0.04em;
+}
+
+.loremP{
+    font-size: medium;
+    color: rgb(164, 164, 164);
+    font-style: italic;
+    letter-spacing: 0.03em;
+    margin-bottom: 10px;
+}
+
+.head2{
+    font-size: 2.6em;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 0.04em;
+    margin-bottom: 10px;
+}
+
+.blackBtn{
+    outline: none;
+    border: none;
+    width: 160px;
+    text-align: center;
+    padding: 6px;
+    text-transform: capitalize;
+    color: white;
+    background-color: black;
+    height: 45px;
+    margin-top: 10px;
+}
+
+.verticleContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0  10px 0;
+}
+
+.verticle{
+    width: 1px;
+    height: 40px;
+    background-color: lightgray;
+}
+
+
+.bigImage{
+    width: 620px;
+    height: 440px;
+    background-image: url("https://cdn.shopify.com/s/files/1/0083/7474/7221/files/cms-img-01_5c6fbd86-a72a-41c6-8eb2-f16b8e26fad9.jpg?v=1613766143");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.craftsLeft{
+    position: relative;
+}
+
+.cropImage{
+    position: absolute;
+    right: -30px;
+    bottom: 40px;
+}
+
+.circle{
+    width: 310px;
+    height: 310px;
+    background-color: rgba(255, 255, 255, 1);
+    color: #000;
+    border-radius: 151px;
+    box-shadow: 0px 255px 230px -92px #f0b325,
+    -8px -9px 0px 0px #f0b325;
+}
+
+.smallImage{
+    width: 285px;
+    height: 300px;
+    background-image: url("https://cdn.shopify.com/s/files/1/0083/7474/7221/files/cms-img-02.png?v=1613766143");
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    bottom: -30px;
+    right: 40px;
+}

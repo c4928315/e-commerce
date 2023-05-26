@@ -1,0 +1,100 @@
+
+
+.testimonaialCarousel{
+    background-image: linear-gradient(rgb(0, 0, 0, 0.2), rgb(0, 0, 0, 0.2)), url("https://cdn.shopify.com/s/files/1/0083/7474/7221/files/parallax-bg.jpg?v=1613766143");
+    background-position: 50% 58.842444%;
+    height:550px;
+    width: 100%;
+    z-index: 1;
+    margin-top: 80px;
+}
+
+
+.testimonials .carousel-inner{
+    height: 550px;
+}  
+
+.testimonialImage{
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 30px;
+}
+
+.tetimonialsHolder{
+    display: flex;
+    justify-content: center;
+}
+
+
+.testimonyContent{
+    display: block;
+    text-align: center;
+    color: white;
+    width: 100%;
+}
+
+.profilePicPosition{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.topDecor{
+    width: 50px;
+    height: 2px;
+    background-color: #f0b325;
+    margin-bottom: 30px;
+}
+
+.userTestimony{
+    margin-bottom: 30px;
+    color: white;
+    letter-spacing: 0.03em;
+    font-style: italic;
+}
+
+.testimonyContent{
+    padding: 250px;
+    padding-top: 90px;
+}
+
+.userName{
+    text-transform: uppercase;
+    font-size: larger;
+    font-weight: bold;
+    letter-spacing: 0.04em;
+    color: white;
+}
+.occupation{
+    letter-spacing: 0.04em;
+    color: white;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.btnDiasabled{
+    display: none;
+}
+
+.navBtn{
+    width: 10px ;
+    height: 10px ;
+    border-radius: 50% !important;
+
+}
+
+.testimonyActive .active{
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 50% !important;
+    background-color: #f0b325 !important;
+}
+
+.testimonaialCarousel .carousel-indicators{
+    margin-bottom: 40px !important;
+}
+
+

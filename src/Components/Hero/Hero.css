@@ -1,0 +1,168 @@
+.hero{
+  z-index: 20;
+}
+
+.carousel-item{
+    position: relative;
+    width: 100%;
+    height: 90vh;
+}
+
+.carousel-item::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+    background-size: cover;
+}
+
+.carousel-item img {
+    display: block;
+    width: 100%;
+    height: 90vh;
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+}
+
+.carousel-inner{
+    height: 90vh;
+    object-fit: cover;
+}  
+
+.carousel-item{
+  text-align: center;
+}
+
+.heroAdverts{
+  position: absolute;
+}
+
+.hero1{
+  position: absolute;
+  top: 45%;
+  left: 15%;
+}
+
+.hero2{
+  position: absolute;
+  top: 45%;
+  right: 15%;
+}
+
+.heroAdverts h3{
+   font-size: 1.3em;
+   font-weight: 300;
+   color: white;
+   letter-spacing: 0.06em;
+}
+
+.heroAdverts p{
+  font-size: 2.6em;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: white;
+
+}
+
+.btn-warning{
+  border-radius: 0px;
+  width: 140px;
+  text-align: center;
+  padding: 6px;
+  text-transform: capitalize;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon{
+  width: 20px;
+  height: 20px;
+}
+
+.prevNext{
+  background-color: black;
+  display: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  padding: 10px;
+  text-align: center;
+  transition: background-color 0.5s;
+}
+
+.prevNext:hover{
+  background-color: #f0b325;
+}
+
+.carousel{
+  transition: all 1.2s;
+  z-index: 20;
+}
+
+.carousel:hover .prevNext{
+  display: block;
+}
+
+.heroBottom{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 20px;
+  justify-content: center;
+  padding: 60px 0;
+  z-index: 20;
+  background-color: white;
+  position: relative;
+}
+
+.heroBottomContent{
+  width: 560px;
+  cursor: pointer;
+  height: 270px;
+  position: relative;
+}
+
+.hBC1{
+  background-image: url("https://images.pexels.com/photos/8609755/pexels-photo-8609755.jpeg?auto=compress&cs=tinysrgb&w=1200&lazy=load");
+  background-position: center;
+  background-size: cover;
+}
+
+.hBC2{
+  background-image: url("https://media.istockphoto.com/id/1346159469/photo/a-chair-in-an-empty-room-the-concept-of-minimalism.jpg?s=612x612&w=0&k=20&c=85ONaGH4dRTw4DBOpe3lHuY4tG0QavSMBAxgc3W6cMg=");
+  background-position: center;
+  background-size: cover;
+}
+
+.advertHBC1 h3{
+  font-size: 1.2em;
+  font-weight: 300;
+}
+
+.advertHBC1 p{
+  font-size: xx-large;
+}
+
+.advertHBC1{
+  text-align: center;
+  right: 10px;
+  top: 20%;
+}
+
+.advertHBC2 h3{
+  font-size: 1.2em;
+  font-weight: 300;
+}
+
+.advertHBC2 p{
+  font-size: xx-large;
+}
+
+.advertHBC2{
+  text-align: center;
+  right: 10px;
+  top: 20%;
+}

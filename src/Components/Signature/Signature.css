@@ -1,0 +1,10 @@
+.signature{
+    display: flex;
+    gap: 5px;
+}
+
+.signatureBorders{
+    height: 3px;
+    width: 100px;
+    background-color: gray;
+}

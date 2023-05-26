@@ -1,0 +1,80 @@
+#myTab{
+    width: 250px;
+}
+
+.nav-item button{
+    margin: 0 10px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+.tab-pane{
+    position: absolute;
+}
+
+.nav-tabs{
+    border: none;
+}
+
+.accountSpan{
+    font-weight: lighter;
+    font-size: large;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+#profile-tab{
+    font-weight: bolder;
+}
+
+.tab-pane{
+    background-color: white;
+    border-radius: 4px;
+}
+
+#account-tab-pane{
+    padding: 20px;
+}
+
+#cart-tab-pane{
+    padding: 20px;
+}
+
+#search-tab-pane input{
+    position: absolute;
+    left: -10px;
+    padding-left: 30px;
+    padding-bottom: 6px;
+    font-style: italic;
+    color: black;
+    font-size: small;
+}
+
+.search{
+    position: absolute;
+    display: block;
+}
+
+.search-input{
+    width: 250px;
+    padding-right: 30px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    height: 30px;
+}
+
+
+#myTab .nav-item {
+    transition: transform 0.5s;
+    padding: 0;
+    margin-top: 0;
+}
+#myTab .nav-item:hover {
+    transform: rotateY(180deg);
+}
+
+#myTab{
+    margin-bottom: 45px;
+}

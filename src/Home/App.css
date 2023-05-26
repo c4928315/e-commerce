@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.App{
+    height: 100vh;
+}
+
+
+.trending{
+    width: 100%;
+    text-align: center;
+    position: relative;
+    height: fit-content;
+    z-index: 20;
+    background-color: white;
+}
+
+
+.trendingHeader{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.signature{
+    display: flex;
+    gap: 5px;
+    width: 100%;
+    justify-content: center;
+}
+
+.signatureBorders{
+    height: 1px;
+    width: 100px;
+    background-color: rgba(128, 128, 128, 0.6);
+    margin-bottom: 5px;
+}
+
+.signatureBorders2{
+    height: 1px;
+    width: 80px;
+    background-color: rgba(128, 128, 128, 0.6);
+    float: right;
+}
+
+.signatureBorders3{
+    height: 1px;
+    width: 80px;
+    background-color: rgba(128, 128, 128, 0.6);
+    float: left;
+}
+
+.outerHeader h1{
+    text-transform: uppercase;
+    font-size: xx-large;
+    font-weight: 400;
+}
+
+.borders{
+    margin-top: 10px;
+}
+
+
+.displayProducts{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 50px;
+}
