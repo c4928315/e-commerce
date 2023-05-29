@@ -1,24 +1,13 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './Trending.css'
 import { GiWoodenChair } from 'react-icons/gi'
 
-import useFetch from '../Custom /Fetch/useFetch';
+
 import Card from '../Product Card/Card';
+import { PRODUCTS } from '../Data';
 
 
 function Trending() {
-
-    const { data, isLoading, error } = useFetch('https://intra-deco.onrender.com/Trending');
-  
-    if (isLoading) {
-    return <div>Loading...</div>;
-    }
-  
-    if (error) {
-    return <div>Error: {error.message}</div>;
-    }
-
-  console.log(data);
 
   return (
     <div className='trending'>
@@ -41,7 +30,7 @@ function Trending() {
 
      <div className='displayProducts'>
       {
-        data.map((item, i) => {
+        PRODUCTS.map((item, i) => {
             return (
                 <div className="card-product">
                     <Card

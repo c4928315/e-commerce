@@ -1,0 +1,156 @@
+/* .footer{
+    padding-bottom: 50px;
+} */
+
+.topFooter{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+    background-color: #222222;
+    color: #ffffff;
+    gap: 160px;
+    height: 100px;
+    padding-top: 32px;
+    position: relative;
+}
+
+.emailUs{
+    display: flex;
+    justify-content: space-between;
+}
+
+.emailUs h4{
+    text-transform: capitalize;
+    font-weight: 300;
+    font-size: 1.5em;
+    margin-left: 20px;
+    margin-top: 4px;
+}
+
+.subscribe{
+    height: 38px;
+    margin-right: 20px;
+    padding: 10px;
+    font-style: italic;
+}
+
+.topFooterSubscribe{
+    display: flex;
+    height: 38px;
+}
+
+.footerDecor{
+    background-color: rgb(240, 179, 37, 0.1);
+    width: 90%;
+    text-align: center;
+    height: 1px;
+    position: absolute;
+    margin: 0 auto;
+    bottom: 0;
+}
+
+.bottomFooter{
+    background-color: rgb(39, 39, 39);
+    color: rgb(230, 230, 230);
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 80px 0;
+    padding-bottom: 100px;
+    position: relative;
+}
+
+.subBottomFooter{
+    width: 290px;
+    height: 160px;
+}
+
+.subBottomFooter .navbar-brand{
+    margin-left: 0;
+    padding: 0;
+}
+
+.subBottomFooter p{
+    font-weight: 300;
+    margin-top: 15px;
+    letter-spacing: 0.03em;
+}
+
+.subBottomFooter ul{
+    list-style: none;
+}
+
+.paddingSBF{
+    padding-left: 20px;
+}
+
+.subBottomFooter h5{
+    font-size: larger;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+
+.subBottomFooter li{
+    margin-left: -31px;
+    margin-top: 10px;
+    font-size: 1em;
+    font-weight: 300;
+    cursor: pointer;
+    text-transform: capitalize;
+    transition: all 0.8s ease-in-out;
+}
+
+.subBottomFooter li:hover{
+    color: #f0b325;
+}
+
+.liFlex{
+    display: flex;
+    gap: 10px;
+}
+
+.socialMedia{
+    display: flex;
+    width: 140px;
+    justify-content: space-evenly;
+    position: absolute;
+    background-color: rgb(39, 39, 39);
+    bottom: -18px;
+    padding: 10px;
+}
+
+.copyright{
+    background-color: rgb(39, 39, 39);
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    color: #ffffff;
+    padding: 25px 0;
+}
+
+.copyright p{
+    font-size: 0.97em;
+    font-weight: 400;
+    color: rgb(176, 176, 176);
+    letter-spacing: 0.04em;
+}
+
+.socialMediaIcon{
+    cursor: pointer;
+    color: rgb(176, 176, 176);
+    transition: all 0.5s ease-in-out;
+}
+
+.socialMediaIcon:hover{
+    color: white; 
+}
+
+.paymentMethods{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 5px;
+    margin-top: -2px;
+}

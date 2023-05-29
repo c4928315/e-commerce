@@ -119,15 +119,35 @@
 }
 
 .hBC1{
-  background-image: url("https://images.pexels.com/photos/8609755/pexels-photo-8609755.jpeg?auto=compress&cs=tinysrgb&w=1200&lazy=load");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)), url("https://images.pexels.com/photos/8609755/pexels-photo-8609755.jpeg?auto=compress&cs=tinysrgb&w=1200&lazy=load");
   background-position: center;
   background-size: cover;
+  --s: 900px;
+  outline: 2px solid rgb(255, 255, 255, 0.1);
+  outline-offset: calc(var(--s)/-2);
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+}
+
+.hBC1:hover {
+  outline: 8px solid rgb(255, 255, 255, 0.1);
+  outline-offset: -1px;
 }
 
 .hBC2{
-  background-image: url("https://media.istockphoto.com/id/1346159469/photo/a-chair-in-an-empty-room-the-concept-of-minimalism.jpg?s=612x612&w=0&k=20&c=85ONaGH4dRTw4DBOpe3lHuY4tG0QavSMBAxgc3W6cMg=");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),url("https://media.istockphoto.com/id/1346159469/photo/a-chair-in-an-empty-room-the-concept-of-minimalism.jpg?s=612x612&w=0&k=20&c=85ONaGH4dRTw4DBOpe3lHuY4tG0QavSMBAxgc3W6cMg=");
   background-position: center;
   background-size: cover;
+  --s: 900px;
+  outline: 2px solid rgb(255, 255, 255, 0.1);
+  outline-offset: calc(var(--s)/-2);
+  cursor: pointer;
+  transition: all 0.6s ease-in-out;
+}
+
+.hBC2:hover {
+  outline: 8px solid rgb(255, 255, 255, 0.1);
+  outline-offset: -1px;
 }
 
 .advertHBC1 h3{

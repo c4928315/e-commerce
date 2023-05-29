@@ -9,6 +9,7 @@ import Special from '../../Components/Special/Special'
 import Indoor from '../../Components/Indoor/Indoor'
 import Latest from '../../Components/Latest/Latest'
 import Sponsors from '../../Components/Sponsors/Sponsors'
+import Footer from '../../Components/Footer/Footer'
 
 function Landing() {
   return (

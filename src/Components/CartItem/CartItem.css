@@ -1,0 +1,104 @@
+.cartItem tr {
+    background-color: white;
+}
+
+.delete{
+    width: 80px;
+}
+
+img{
+    width: 90px;
+}
+
+table{
+    width: 100%;
+}
+
+table tr{
+    text-align: center;
+}
+
+table tr td{
+    border: 1px solid rgb(211, 211, 211, 0.5);
+}
+
+td{
+    width: fit-content;
+    padding: 10px;
+    height: fit-content;
+}
+
+.image{
+    width: 150px;
+}
+
+.description h5{
+    font-size: 1em;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: #366e78;
+    margin-bottom: 10px;
+}
+
+.description p{
+    color: rgba(125, 125, 125, 0.9);
+    text-transform: capitalize;
+    letter-spacing: 0.03em;
+    font-size: 0.9em;
+}
+
+.description{
+    width: 160px;
+    text-align: left;
+    padding-left: 15px;
+    line-height: 0.4em;
+}
+
+.size{
+    margin-bottom: 12px;
+}
+
+.costCartItem{
+    width: 120px;
+    font-weight: 700;
+    font-size: large;
+    padding: 10px;
+}
+
+.quantity input{
+    max-width: 40px;
+    min-width: 30px;
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    text-align: center;
+    margin: 0 10px;
+    background-color: #366e78;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 0.9em;
+}
+
+.quantity button{
+    width: 35px;
+    height: 35px;
+    background-color: lightgrey;
+    border: 1px solid rgb(95, 95, 95, 0.4);
+    outline: none;
+    border-radius: 5px;
+}
+
+.quantity{
+    width: fit-content;
+
+}
+
+
+.total{
+    width: 140px;
+    text-align: center;
+    height: 40px;
+}

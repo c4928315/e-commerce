@@ -30,7 +30,7 @@ function Bar() {
                    <Link to='/'><a class="nav-link active" aria-current="page" href="#">Home</a></Link>
                  </li>
                  <li class="nav-item">
-                   <a class="nav-link" href="#">Features</a>
+                 <Link to='/cart'><a class="nav-link active" aria-current="page" href="#">cart</a></Link>
                  </li>
                  <li class="nav-item">
                    <a class="nav-link" href="#">Pricing</a>
