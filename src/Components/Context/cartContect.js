@@ -25,7 +25,10 @@ function CartContextProvider(props) {
   }, []);
 
   
-
+  useEffect(() => {
+    // Update cart items in local storage whenever the cart items change
+    localStorage.setItem('cartItems', JSON.stringify(cartItems));
+  }, [cartItems]);
 
 
     const addToCart = (itemId) => {
