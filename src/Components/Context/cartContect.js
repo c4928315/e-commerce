@@ -16,6 +16,16 @@ function CartContextProvider(props) {
 
   const [cartItems, setCartItems] = useState(getDefaultCart());
 
+  useEffect(() => {
+    // Retrieve cart items from local storage when the component initializes
+    const storedCartItems = localStorage.getItem('cartItems');
+    if (storedCartItems) {
+      setCartItems(JSON.parse(storedCartItems));
+    }
+  }, []);
+
+  
+
 
 
     const addToCart = (itemId) => {

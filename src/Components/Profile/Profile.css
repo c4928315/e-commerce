@@ -30,7 +30,6 @@
 
 .tab-pane{
     background-color: white;
-    border-radius: 4px;
 }
 
 #account-tab-pane{
@@ -39,6 +38,7 @@
 
 #cart-tab-pane{
     padding: 20px;
+    right: 20px;
 }
 
 #search-tab-pane input{
@@ -50,6 +50,7 @@
     color: black;
     font-size: small;
 }
+
 
 .search{
     position: absolute;
@@ -71,10 +72,90 @@
     padding: 0;
     margin-top: 0;
 }
-#myTab .nav-item:hover {
+/* #myTab .nav-item:hover {
     transform: rotateY(180deg);
-}
+} */
 
 #myTab{
     margin-bottom: 45px;
+}
+
+.topCartContainer{
+    height: fit-content;
+}
+
+.topCart{
+    display: block;
+}
+
+.innerTopCart img{
+    width: 70px;
+    height: 100px;
+}
+
+.innerTopCart{
+    display: flex;
+    width: 250px;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+
+.innerTopCartRight p{
+    font-size: 0.9em;
+    font-weight: 400;
+    letter-spacing: 0.04em;
+    color: gray;
+    text-transform: capitalize;
+    line-height: 1.2em;
+}
+
+.innerTopCartRight b{
+    padding-top: -30px;
+    font-weight: 500;
+    font-size: 0.92em;
+    line-height: 0.2em;
+}
+
+.bold{
+    margin-top: -12px;
+}
+
+sub{
+    color: gray;
+    font-size: 0.97em;
+    margin-left: 2px;
+    font-weight: 300;
+}
+
+.topCartTotalCheckout{
+   display: block;
+}
+
+.topCartAmount{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -5px;
+}
+
+.topCartAmount h4{
+    font-size: 1.06em;
+    font-weight: 300;
+    text-transform: capitalize;
+}
+
+.topCartAmount p{
+    color: gray;
+    letter-spacing: 0.04em;
+}
+
+.blackBtnTopCart{
+    background-color: #366e78 !important;
+    margin-left: 10px;
+}
+
+.removeFromCartTop{
+    position: absolute;
+    right: 20px;
+    font-size: large;
+    color: gray;
 }

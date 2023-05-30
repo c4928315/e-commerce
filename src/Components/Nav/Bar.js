@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import './Nav.css'
 import Search from '../Search/Search'
 import Profile from '../Profile/Profile'
@@ -6,6 +6,8 @@ import { GiWoodenChair } from 'react-icons/gi'
 import { Link } from 'react-router-dom'
 
 function Bar() {
+
+  
 
   const style = {
     color: "white",
@@ -42,7 +44,9 @@ function Bar() {
                      <ul class="dropdown-menu">
                         <li><a class="dropdown-item" href="#">Action</a></li>
                         <li><a class="dropdown-item" href="#">Another action</a></li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        <li><a class="dropdown-item" href="#">
+                          Something else here
+                        </a></li>
                      </ul>
                  </li>
               </ul>

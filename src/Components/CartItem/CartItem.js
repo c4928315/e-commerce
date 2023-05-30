@@ -13,12 +13,14 @@ function CartItem({data}) {
         return a * b;
       }
       
-    
+    const style = {
+        color: "#573f07",
+    }
   return (
     <div className='cartItem'>
     <table>  
      <tr>
-        <td className='delete'><RiDeleteBinLine/></td>
+        <td className='delete'><RiDeleteBinLine size={15} style={style}/></td>
         <td className='image'><img src={data.image}/></td>
         <td className='description'>
             <h5>{data.name}</h5>

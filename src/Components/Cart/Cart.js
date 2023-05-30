@@ -8,8 +8,7 @@ import { GiDeliveryDrone } from "react-icons/gi";
 import CartItem from "../CartItem/CartItem";
 
 function Cart() {
-  const { cartItems, getTotalCartAmount } =
-    useContext(CartContext);
+  const { cartItems, getTotalCartAmount } = useContext(CartContext);
     
     const totalAmount = getTotalCartAmount()
 
